@@ -80,12 +80,12 @@ tim_berners_lee = Programmer(
     famous_for="World Wide Web"
 )
 
-your_name = Programmer(
-    first_name="Your First Name",
-    last_name="Your Last Name",
-    gender="Your Gender",
-    nationality="Your Nationality",
-    famous_for="Celebrate Yourself Here"
+j_k = Programmer(
+    first_name="J",
+    last_name="K",
+    gender="M",
+    nationality="Oirish",
+    famous_for="Nuttin"
 )
 
 # add each instance of our programmers to our session
@@ -95,11 +95,11 @@ your_name = Programmer(
 # session.add(margaret_hamilton)
 # session.add(bill_gates)
 # session.add(tim_berners_lee)
-# session.add(your_name)
+# session.add(j_k)
 
 
 # updating a single record
-# programmer = session.query(Programmer).filter_by(id=7).first()
+# programmer = session.query(Programmer).filter_by(id=8).first()
 # programmer.famous_for = "World President"
 
 # commit our session to the database
