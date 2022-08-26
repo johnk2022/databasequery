@@ -1,0 +1,16 @@
+set_pg
+psql
+
+other
+\l
+CREATE DATABASE chinook;
+\c chinook (cd)
+\i Chinook_PostgreSql.sql (include)
+\q quit
+psql -d chinook 
+\dt  (display tables)
+ SELECT * FROM "Artist";
+ q (quit query)
+ SELECT "Name" FROM "Artist";
+ SELECT "Name" FROM "Artist" WHERE "Name" = 'Queen';
+SELECT "Name" FROM "Artist" WHERE "ArtistId" = '51';
