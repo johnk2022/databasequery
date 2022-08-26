@@ -15,7 +15,8 @@ cursor = connection.cursor()
 # cursor.execute('SELECT "Name" FROM "Artist"')
 
 # Query 3 - select only "Queen" from the "Artist" table
-# cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Queen"])  Note %s = "Queen" in this case.
+# cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Queen"]) 
+# Note %s = "Queen" in this case.
 
 # Query 4 - select only by "ArtistId" #51 from the "Artist" table
 # cursor.execute('SELECT * FROM "Artist" WHERE "ArtistId" = %s', [51])
